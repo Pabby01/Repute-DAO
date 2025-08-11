@@ -1,0 +1,24 @@
+[package]
+name = "repute_dao"
+version = "0.1.0"
+description = "Reputation Scoreboard for DAOs"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "repute_dao"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+anchor-debug = []
+custom-heap = []
+custom-panic = []
+idl-build = ["anchor-lang/idl-build", "anchor-spl/idl-build"]
+
+[dependencies]
+anchor-lang = { version = "0.31.1", features = ["init-if-needed"] }
+anchor-spl = "0.31.1"

@@ -1,0 +1,36 @@
+{
+  "name": "repute-dao",
+  "version": "0.1.0",
+  "description": "Reputation Scoreboard for DAOs",
+  "main": "index.js",
+  "scripts": {
+    "test": "anchor test",
+    "build": "anchor build",
+    "deploy": "anchor deploy",
+    "postinstall": "npm install --no-save @types/chai@^4.3.5"
+  },
+  "keywords": [
+    "solana",
+    "anchor",
+    "blockchain",
+    "dao",
+    "reputation"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@coral-xyz/anchor": "^0.31.1",
+    "@solana/spl-token": "^0.3.8",
+    "@solana/web3.js": "^1.78.0"
+  },
+  "devDependencies": {
+    "@types/bn.js": "^5.1.0",
+    "@types/chai": "^4.3.5",
+    "@types/mocha": "^9.0.0",
+    "@types/node": "^20.4.5",
+    "chai": "^4.3.4",
+    "mocha": "^9.0.3",
+    "ts-mocha": "^10.0.0",
+    "typescript": "^4.3.5"
+  }
+}

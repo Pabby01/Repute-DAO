@@ -1,0 +1,16 @@
+[2025-08-06T11:32:24.537813944Z INFO  solana_test_validator] agave-validator 2.2.12 (src:0315eb6a; feat:1522022101, client:Agave)
+[2025-08-06T11:32:24.537861367Z INFO  solana_test_validator] Starting validator with: ArgsOs {
+        inner: [
+            "solana-test-validator",
+            "--ledger",
+            ".anchor/test-ledger",
+            "--mint",
+            "5nTk8waWvxJzYZZfKqihpSLwf811iU5v73BXCzmHVPaX",
+            "--bpf-program",
+            "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS",
+            "/home/pabby7942/ReputeDAO/target/deploy/repute_dao.so",
+        ],
+    }
+[2025-08-06T11:32:24.537903473Z WARN  solana_perf] CUDA is disabled
+[2025-08-06T11:32:24.537932223Z INFO  solana_perf] AVX detected
+[2025-08-06T11:32:24.537941350Z INFO  solana_perf] AVX2 detected
