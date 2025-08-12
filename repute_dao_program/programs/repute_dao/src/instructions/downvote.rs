@@ -1,6 +1,5 @@
 use crate::*;
 use anchor_lang::prelude::*;
-use std::str::FromStr;
 
 
 
@@ -49,12 +48,6 @@ use std::str::FromStr;
 		pub voter_token_account: UncheckedAccount<'info>,
 
 		pub token_program: Program<'info, anchor_spl::token::Token>,
-		#[account(address = anchor_spl::token::ID)]
-		pub token_program_id: UncheckedAccount<'info>,
-		#[account(address = spl_token::ID)]
-		pub spl_token_program_id: UncheckedAccount<'info>,
-		#[account(address = spl_associated_token_account::ID)]
-		pub spl_associated_token_account_program_id: UncheckedAccount<'info>,
 
 		pub system_program: Program<'info, System>,
 	}
